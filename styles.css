@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.first {
+    display: inline-block;
+    padding-right: 200px;
+    padding-left: 160px;
+    font-family: "TheSkinny";
+    font-size: 80px;
+}
+
+.last {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 50px;
+    
+}
+
+.middle{
+    display: inline-block;
+    padding-right:200px;
+    padding-left: 120px;
+    font-family: "PaintBrushScript";
+    font-size: 60px;
+}
+
+img {
+    width: 485px;
+    border-radius: 12px;
+}
+
+@font-face {
+  font-family: "TheSkinny";
+  src: url(Fonts/TheSkinny.otf);
+}
+
+@font-face{
+    font-family: "BadWeather";
+    src: url(Fonts/BadWeatherDemo.ttf)
+}
+@font-face{
+    font-family: "PaintBrushScript";
+    src: url(Fonts/PaintBrushScript-Regular.otf)
+}
