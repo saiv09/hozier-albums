@@ -1,0 +1,84 @@
+body{
+    background-color: #9bc6e9;
+}
+
+.polaroid {
+  width: 35%;
+  background-color: rgb(236, 215, 177);
+  float: left;
+  border-radius: 50px;
+
+  
+}
+
+img{
+    width: 94%;
+    border-radius: 40px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(236, 215, 177);
+    
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+@font-face{
+    font-family:"TheSkinny";
+    src: url(../Fonts/TheSkinny.otf);
+}
+
+h2 {
+    font-family: "TheSkinny";
+    font-size: 40px;
+    color: rgb(107, 49, 35);
+    line-height: 0%;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(107, 49, 35);
+}
+
+.rectangle{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(236, 215, 177);
+    position:absolute;
+    left: 40%;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.biography{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 585px;
+    position: absolute;
+    top:0%;
+}
+
+.bio{
+    font-size: 30px;
+    font-family: "TheSkinny";
+}
+
+.rectangle2{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(236, 215, 177);
+    position:absolute;
+    left: 40%;
+    top: 30%;
+    border-radius: 50px;
+}
+
+.tracklist{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 900px;
+    position: absolute;
+    top: 32%;
+}
