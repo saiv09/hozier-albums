@@ -3,7 +3,7 @@ body{
 }
 
 .polaroid {
-  width: 35%;
+  width: 520px;
   background-color: rgb(236, 215, 177);
   float: left;
   border-radius: 50px;
@@ -12,7 +12,7 @@ body{
 }
 
 img{
-    width: 94%;
+    width: 485px;
     border-radius: 40px;
     border-width: 15px;
     border-style: solid;
@@ -34,7 +34,7 @@ h2 {
     font-family: "TheSkinny";
     font-size: 40px;
     color: rgb(107, 49, 35);
-    line-height: 0%;
+    line-height: 0px;
 }
 
 p {
@@ -42,43 +42,59 @@ p {
     color: rgb(107, 49, 35);
 }
 
-.rectangle{
-    width: 800px;
-    height: 200px;
-    background-color: rgb(236, 215, 177);
-    position:absolute;
-    left: 40%;
-    z-index: -1;
-    border-radius: 50px;
-}
-
 .biography{
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 585px;
-    position: absolute;
-    top:0%;
-}
-
-.bio{
-    font-size: 30px;
-    font-family: "TheSkinny";
-}
-
-.rectangle2{
     width: 800px;
-    height: 200px;
+    height: 250px;
     background-color: rgb(236, 215, 177);
     position:absolute;
-    left: 40%;
-    top: 30%;
+    left: 600px;
     border-radius: 50px;
+    font-family: "TheSkinny";
+    text-align:center;
+    font-size: 32px;
+    color: rgb(107, 49, 35);
+    line-height: 50px;
 }
+
 
 .tracklist{
+    width: 800px;
+    height: 1070px;
+    background-color: rgb(236, 215, 177);
+    position:absolute;
+    left: 600px;
+    top: 350px;
+    border-radius: 50px;
     text-align: center;
-    margin-right: 100px;
-    margin-left: 900px;
-    position: absolute;
-    top: 32%;
+    color: rgb(107, 49, 35);
+    font-family: "TheSkinny";
+    font-size: 32px;
+    line-height: 50px;
+    list-style: inside;
+}
+
+.preview{
+    width: 520px;
+    height:440px;
+    background-color: rgb(236, 215, 177);
+    border-radius: 50px;
+    font-family: "TheSkinny";
+    position:absolute;
+    top:700px;
+    text-align: center;
+}
+
+.funfact{
+    width: 520px;
+    height: 220px;
+    background-color: rgb(236, 215, 177);
+    border-radius:50px;
+    font-family: "TheSkinny";
+    font-size:32px;
+    color:rgb(107, 49, 35);
+    position:absolute;
+    top:1200px;
+    text-align: center;
+    line-height: 50px;
+
 }
