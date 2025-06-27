@@ -1,0 +1,54 @@
+body {
+    background-color:#D9D5AB;
+}
+
+.polaroid {
+    width: 520px;
+    background-color:#593129;
+    float: left;
+    border-radius: 50px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+img {
+    width: 485px;
+    border-radius: 40px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #593129;
+}
+
+h2 {
+    color: #C9A355;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    line-height: 0px;
+}
+
+p {
+    font-size: 20px;
+    color:#C9A355;
+}
+
+.biography{
+    width: 800px;
+    height: 250px;
+    background-color: #593129;
+    position:absolute;
+    left: 600px;
+    border-radius: 50px;
+    font-family: "BebasNeue";
+    text-align:center;
+    font-size: 32px;
+    color: #C9A355;
+    line-height: 50px;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../Fonts/BebasNeue-Regular.ttf);
+}
